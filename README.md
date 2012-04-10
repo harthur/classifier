@@ -11,6 +11,8 @@ bayes.train("I don't know if this works on windows", 'not');
 var category = bayes.classify("free watches");   // "spam"
 ```
 
+The first argument to `train()` can be a string of text or an array of words, the second argument can be any category name you want.
+
 # using in node
 If you have [node](http://nodejs.org/) you can install with [npm](http://github.com/isaacs/npm):
 
@@ -34,7 +36,7 @@ var bayes = new classifier.Bayesian({
   }
 });
 
-bayes.train("cheap replica watches", "spam", function() {
+bayes.train("cheap replica watches", 'spam', function() {
   console.log("trained");
 });
 
