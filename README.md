@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/harthur/classifier.png)](http://travis-ci.org/harthur/classifier)
 # classifier
 
 `classifier` is a JavaScript naive [Bayesian classifier](http://en.wikipedia.org/wiki/Bayesian_spam_filtering) with backends for Redis and localStorage:
