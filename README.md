@@ -13,6 +13,9 @@ var category = bayes.classify("free watches");   // "spam"
 
 The first argument to `train()` can be a string of text or an array of words, the second argument can be any category name you want.
 
+#### Note
+If this classifier doesn't work well on your dataset after tweaking the parameters, try the [natural classifier](https://github.com/NaturalNode/natural). It doesn't have a Redis backend, but will work better on some datasets.
+
 # using in node
 If you have [node](http://nodejs.org/) you can install with [npm](http://github.com/isaacs/npm):
 
